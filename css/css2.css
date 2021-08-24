@@ -1,0 +1,60 @@
+.moving--divs{
+    width: 80px;
+    height: 130px;
+   
+    position: relative;
+   
+  }
+
+
+  .container--1{
+    animation: mymove 8s infinite 7s backwards;
+    background-color: black;
+    margin-bottom: 400px;
+  }
+
+  .container--2{
+    animation: mymove 8s infinite 1s backwards;
+    background-color: rgb(76, 128, 241);
+  }
+
+  .container--3{
+    animation: mymove 8s infinite 6s backwards;
+    background-color: rgb(238, 232, 232);
+    margin-bottom: 400px;
+  }
+
+  .container--4{
+    animation: mymove 8s infinite 4s backwards;
+    background-color: rgb(76, 128, 241);
+  }
+  
+  #div1 {animation-timing-function: linear;
+    animation-direction: normal;
+}
+  #div2 {animation-timing-function: linear;animation-direction: normal;}
+  #div3 {animation-timing-function: linear;animation-direction: normal;}
+  #div4 {animation-timing-function: linear;animation-direction: normal;}
+  #div5 {animation-timing-function: linear;animation-direction:normal;}
+  
+  @keyframes mymove {
+    from {top: -750px;}
+    to {top: 700px; }
+  }
+
+body{
+  overflow-y: hidden;
+  
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.container{
+  margin: 0px 7px;
+}
+
+  
